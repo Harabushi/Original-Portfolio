@@ -91,6 +91,27 @@ header nav ul li a {
     width: 80%;
     margin: 0 auto;
 }
+
+.about-flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+
+.abut-img {
+    width: 40%;
+    text-align: right;
+    margin: 3.5%;
+    padding: 20px;
+}
+
+.about-info {
+    width: 40%;
+    text-align: left;
+    margin: 3.5%;
+}
 /* about me styles end */
 
 /* my work styles start */
@@ -107,21 +128,59 @@ header nav ul li a {
     margin: 0 auto;
     width: 50%;
 }
+
+.projects-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-project {
+    flex: 100%;
+    padding: 20px 0;
+}
+
+.project {
+    flex: 35%;
+    padding-bottom: 20px;
+}
 /* my work styles end */
 
 /* footer/contact me styles start */
 .contact {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
 }
 
 .contact h2 {
     font-size: 48px;
-    border-bottom: 3px solid var(--secondary-color);
+    border-right: 3px solid var(--secondary-color);
     padding: 20px 0;
-    margin: 0 auto;
-    width: 50%;
+    margin: 0;
+    width: 20%;
+}
+
+.contact address {
+    padding: 25px;
+}
+
+.contact address ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.contact address ul li {
+    padding: 10px 15px;
+    margin: 0 15px ;
+    font-weight: lighter;
+    font-size: 1.25vw;
+    text-align: center;
 }
 /* footer/contact me styles end */
 
