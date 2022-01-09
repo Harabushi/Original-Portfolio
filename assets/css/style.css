@@ -4,34 +4,125 @@
     margin: 0;
 }
 
+:root {
+    --primary-color: #8a307f;
+    --secondary-color: #79a7d3;
+    --tertiary-color: #6883bc;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /* header/navigation styles start */
+header {
+    padding: 10px 10px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
+header h1 {
+    font-weight: bold;
+    font-size: 48px;
+    margin: 0 15px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+header nav {
+    margin: 20px 30px 0 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+/* leaving for now, try li to width 33% and li a padding to 80% */
+
+header nav ul li a {
+    padding: 10px 15px;
+    margin: 0 15px ;
+    font-weight: lighter;
+    font-size: 1.25vw;
+    border-top: 3px solid var(--secondary-color);
+    text-align: center;
+}
 /* header/navigation styles end */
 
 /* hero/jumbotron styles start */
 .hero {
     height: 100%;
     width: 100%;
-    margin-bottom: 25px;
     background-size: cover;
     background-position: center;
 }
 /* hero/jumbotron styles end */
 
 /*  about me styles start */
+.about {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    margin-top: -5px;
+    text-align: center;
+}
 
+.about h2 {
+    font-size: 48px;
+    border-bottom: 3px solid var(--tertiary-color);
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.about p {
+    line-height: 1.7;
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
 /* about me styles end */
 
 /* my work styles start */
+.projects {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+}
 
+.projects h2 {
+    font-size: 48px;
+    border-bottom: 3px solid var(--tertiary-color);
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 50%;
+}
 /* my work styles end */
 
 /* footer/contact me styles start */
+.contact {
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    text-align: center;
+}
 
+.contact h2 {
+    font-size: 48px;
+    border-bottom: 3px solid var(--secondary-color);
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 50%;
+}
 /* footer/contact me styles end */
 
 /* utility styles start */
