@@ -7,3 +7,33 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* header/navigation styles start */
+
+/* header/navigation styles end */
+
+/* hero/jumbotron styles start */
+.hero {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+/* hero/jumbotron styles end */
+
+/*  about me styles start */
+
+/* about me styles end */
+
+/* my work styles start */
+
+/* my work styles end */
+
+/* footer/contact me styles start */
+
+/* footer/contact me styles end */
+
+/* utility styles start */
+
+/* utility styles end */
