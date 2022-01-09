@@ -62,7 +62,7 @@ header nav ul li a {
 
 /* hero/jumbotron styles start */
 .hero {
-    height: 100%;
+    height: 400px;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -72,14 +72,14 @@ header nav ul li a {
 /*  about me styles start */
 .about {
     background-color: var(--secondary-color);
-    color: var(--primary-color);
+    color: var(--tertiary-color);
     margin-top: -5px;
     text-align: center;
 }
 
 .about h2 {
     font-size: 48px;
-    border-bottom: 3px solid var(--tertiary-color);
+    border-bottom: 3px solid var(--primary-color);
     padding: 20px 0;
     margin: 0 auto;
     width: 50%;
@@ -95,14 +95,14 @@ header nav ul li a {
 
 /* my work styles start */
 .projects {
-    background-color: var(--primary-color);
+    background-color: var(--tertiary-color);
     color: var(--secondary-color);
     text-align: center;
 }
 
 .projects h2 {
     font-size: 48px;
-    border-bottom: 3px solid var(--tertiary-color);
+    border-bottom: 3px solid var(--primary-color);
     padding: 20px 0;
     margin: 0 auto;
     width: 50%;
@@ -111,8 +111,8 @@ header nav ul li a {
 
 /* footer/contact me styles start */
 .contact {
-    background-color: var(--tertiary-color);
-    color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     text-align: center;
 }
 
