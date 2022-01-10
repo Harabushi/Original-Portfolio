@@ -6,7 +6,7 @@ The purpose of this weekly challenge is to create the earliest version of my pro
 
 <br />
 
-![screen shot of site](#)
+![screen shot of site](./assets/images/portfolio-screencap.png)
 
 <br />
 
