@@ -28,7 +28,6 @@ header h1 {
     font-weight: bold;
     font-size: 48px;
     margin: 0 15px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
@@ -46,6 +45,10 @@ header nav ul {
     justify-content: space-around;
     align-items: center;
     list-style: none;
+}
+
+header nav ul li a:hover {
+    border-color: var(--tertiary-color);
 }
 
 /* leaving for now, try li to width 33% and li a padding to 80% */
@@ -122,6 +125,14 @@ header nav ul li a {
     text-align: center;
 }
 
+.projects img {
+    opacity: 0.5;
+}
+
+.projects img:hover {
+    opacity: 1;
+}
+
 .projects h2 {
     font-size: 48px;
     border-bottom: 3px solid var(--primary-color);
@@ -170,7 +181,7 @@ header nav ul li a {
 .contact h2 {
     font-size: 48px;
     border-right: 3px solid var(--secondary-color);
-    padding: 20px 0;
+    padding: 25px 15px 20px 0;
     margin: 0;
     width: 20%;
 }
@@ -202,10 +213,17 @@ header nav ul li a {
     color: var(--secondary-color);
     text-decoration: none;
 }
+
+.contact address a:hover {
+    color: var(--tertiary-color);
+}
 /* footer/contact me styles end */
 
 /* utility styles start */
 
+.text-shadow {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 /* .caption {
     font-size: calc(16px + 0.5vw);
     text-align: left;
