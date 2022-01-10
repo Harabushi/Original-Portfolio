@@ -227,7 +227,12 @@ header nav ul li a {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
 
-    .project  {
+    header nav ul li a {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .project {
        flex: 1 1 50%;
     }
 
@@ -261,6 +266,20 @@ header nav ul li a {
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
 
+    header h1 {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+
+    header nav {
+        flex: 1 1 100%;
+    }
+
+    header nav ul li {
+        flex: 1 1 10%;
+        text-align: center;
+    }
+
     .main-project {
         flex: 1 1 75%;
     }
@@ -275,6 +294,23 @@ header nav ul li a {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+    
+    header {
+        padding: 10px 0;
+    }
+
+    header h1 {
+        font-size: 35px;
+        margin: 0;
+    }
+
+    header nav ul {
+        width: 100%;
+    }
+    header nav ul li a {
+        margin: 0;
+        padding: 5px 0;
+    }
 
     .project {
         flex: 1 1 100%;
