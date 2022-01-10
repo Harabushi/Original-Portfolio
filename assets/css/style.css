@@ -62,7 +62,7 @@ header nav ul li a {
 
 /* hero/jumbotron styles start */
 .hero {
-    height: 400px;
+    height: 100%;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -136,7 +136,7 @@ header nav ul li a {
 }
 
 .main-project {
-    flex: 100%;
+    flex: 1 1 100%;
     padding: 20px 0;
 }
 
@@ -201,4 +201,53 @@ header nav ul li a {
 
 /* utility styles start */
 
+/* .caption {
+    font-size: calc(16px + 0.5vw);
+    text-align: left;
+    margin: 0 auto 35px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    top: 65%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    background-color: var(--secondary-color);
+    color: red;
+} */
 /* utility styles end */
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+
+    .project  {
+       flex: 1 1 50%;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+    .main-project {
+        flex: 1 1 75%;
+    }
+
+    .main-project img {
+        max-height: 600px;
+        width: 100%;
+        padding: 10px;
+    }
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+    .project {
+        flex: 1 1 100%;
+        padding: 20px;
+    }
+}
