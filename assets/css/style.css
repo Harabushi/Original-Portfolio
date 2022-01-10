@@ -186,10 +186,14 @@ header nav ul li a {
 
 .contact address ul li {
     padding: 10px 15px;
-    margin: 0 15px ;
+    margin: 0;
     font-weight: lighter;
-    font-size: 1.25vw;
+    line-height: 1;
+    font-size: 1.55vw;
     text-align: center;
+}
+
+.contact address h3 {
     text-decoration: underline;
 }
 
@@ -226,6 +230,32 @@ header nav ul li a {
     .project  {
        flex: 1 1 50%;
     }
+
+    .contact {
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .contact address {
+        padding: 5px;
+        flex: 2 3 60%;
+    }
+
+    .contact address ul {
+        justify-content: space-around;
+    }
+
+    .contact address ul li {
+        flex: 0 1 40%;
+        font-size: 15px;
+
+    }
+
+    .contact h2 {
+        padding-right: 15px;
+        flex: 3 2 33%;
+
+    }
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -250,4 +280,16 @@ header nav ul li a {
         flex: 1 1 100%;
         padding: 20px;
     }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact h2 {
+        flex: 1 1 100%;
+        width: 100%;
+        border-right: 0;
+        border-bottom: 3px solid var(--secondary-color);
+    }
+
 }
