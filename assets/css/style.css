@@ -24,6 +24,10 @@ header {
     flex-wrap: wrap;
 }
 
+img.mobile {
+    display: none;
+}
+
 header h1 {
     font-weight: bold;
     font-size: 48px;
@@ -153,7 +157,7 @@ header nav ul li a {
 }
 
 .main-project img {
-    max-height: 800px;
+    max-height: 400px;
 }
 
 .project {
@@ -334,6 +338,16 @@ header nav ul li a {
     header nav ul li a {
         margin: 0;
         padding: 5px 0;
+    }
+
+    img.mobile {
+        display: block;
+        margin: 0 auto;
+        width: 72%;
+    }
+
+    img.desktop {
+        display: none;
     }
 
     .project {
