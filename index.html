@@ -1,126 +1,195 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <title>Colby Harris</title>
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="./assets/css/new-style.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.css" />
+    <title>Colby Harris</title>
+  </head>
 
-    <body>
+  <body>
+    <!-- header/navigation start -->
+    <header class="container">
+      <div class="row">
+        <h1 class="col-12 text-center text-md-left">
+          <a href="./index.html">Colby Harris</a>
+        </h1>
+        <nav class="col-12 container text-center">
+          <ul class="row list-unstyled">
+            <li class="col-4">
+              <h4>
+              <a href="#about-me">About Me</a>
+              </h4>
+            </li>
+            <li class="col-4">
+              <h4>
+              <a href="#my-work">My Work</a>
+              </h4>
+            </li>
+            <li class="col-4">
+              <h4>
+              <a href="#contact-me">Contact Me</a>
+              </h4>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- header/navigation end -->
 
-        <!-- header/navigation start -->
-        <header class="text-shadow">
-            <h1>
-                <a href="./index.html">Colby Harris</a>
-            </h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#about-me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#my-work">My Work</a>
-                    </li>
-                    <li>
-                        <a href="#contact-me">Contact Me</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <!-- header/navigation end -->
+    <!-- hero/jumbotron start -->
+    <img
+      src="./assets/images/hero-banner.jpg"
+      class="w-100 h-80"
+      alt="banner of a phone with rainbow 3d gridspace flowing out"
+    />
+    <!-- hero/jumborton end -->
 
-        <!-- hero/jumbotron start -->
-        <img src="./assets/images/hero-banner.jpg" class="hero" alt="banner of a phone with rainbow 3d gridspace coming out of it" />
-        <!-- background-image: url("./assets/images/hero-banner.jpg");
-            background-size: cover;
-            background-position: center; -->
-        <!-- hero/jumborton end -->
+    <!-- about me start-->
+    <article class="container text-center" id="about-me">
+      <h2>About Me</h2>
+      <section class="row">
+        <div class="col-12 col-md-4 my-auto">
+          <img
+            class="rounded mw-100"
+            src="./assets/images/profile-photo.jpg"
+            alt="photo of colby smiling"
+          />
+        </div>
+        <div class="col-12 col-md-8 lead">
+          <p>
+            Spent 10 years working in the mental heatlh field, but want to do 
+            more with my skills to help the field. Currently taking a course on
+            programming and hoping to get a job where I can design accessible
+            websites and phone apps to help people living in the mental health
+            world. I have spent a large portion of my life learning about
+            computers and working on computers. Have built/modified a few and
+            have spent many hours digging through the inner workings to fix
+            problems. This course should give the skills to make use of that
+            learned experience to create instead of fix.
+          </p>
+        </div>
+      </section>
+    </article>
+    <!-- about me end -->
 
-        <!-- about me start-->
-        <article id="about-me" class="about">
-            <h2 class="">About Me</h2>
-            <section class="about-flex">
-                <div class="about-img">
-                    <img src="./assets/images/profile-photo.jpg" alt="photo of colby smiling" />
-                </div>
-                <div class="about-info">
-                    <p>
-                        Spent 10 years working in the mental heatlh field, but have spent a lifetime working with and on computer.
-                        Currently taking a course on programming and hoping to get a job where I can design accessible websites and
-                        phone apps to help people living in the mental health world. I have spent a large portion of my life
-                        learning about computers and working on computers. Have built/modified a few and have spent many hours
-                        digging through the inner workings to fix problems. This course should give the skills to make use of that
-                        learned experience to create instead of fix.
-                    </p>
-                </div>
-            </section>
-        </article>
-        <!-- about me end -->
+    <!-- my work start -->
+    <main class="container text-center" id="my-work">
+      <h2 class="text-shadow">My Work</h2>
+      <div class="row">
+        <figure class="col-12">
+          <a href="https://harabushi.github.io/mental-health-check/">
+            <img
+              class="rounded desktop mw-100"
+              src="./assets/images/mental-health-checker-screencap.gif"
+              title="Mental Health Checker"
+              alt="screenshot of mental health checker website"
+            />
+          </a>
+          <!-- <a href="https://harabushi.github.io/mental-health-check/">
+            <img
+              class="rounded mobile"
+              src="./assets/images/mental-health-checker-results-screencap.png"
+              title="Mental Health Checker"
+              alt="screenshot of mental health checker website"
+            />
+          </a> -->
+        </figure>
+        <figure class="col-12 col-sm-6 col-lg-3">
+          <a href="https://harabushi.github.io/run-buddy/">
+            <img
+              class="rounded mw-100"
+              src="./assets/images/run-buddy-screencap.png"
+              title="Run Buddy"
+              alt="screenshot of run buddy website"
+            />
+          </a>
+        </figure>
+        <figure class="col-12 col-sm-6 col-lg-3">
+          <a href="https://harabushi.github.io/horiseon/">
+            <img
+              class="rounded mw-100"
+              src="./assets/images/horiseon-screencap.png"
+              title="Horiseon"
+              alt="screenshot of horiseon website"
+            />
+          </a>
+        </figure>
+        <figure class="col-12 col-sm-6 col-lg-3">
+          <img
+            class="rounded mw-100"
+            src="https://via.placeholder.com/400.png"
+            title="placeholder"
+            alt="placeholder image"
+          />
+        </figure>
+        <figure class="col-12 col-sm-6 col-lg-3">
+          <img
+            class="rounded mw-100"
+            src="https://via.placeholder.com/400.png"
+            title="placeholder"
+            alt="placeholder image"
+          />
+        </figure>
+      </div>
+    </main>
+    <!-- my work end -->
 
-        <!-- my work start -->
-        <main id="my-work" class="projects">
-            <h2 class="text-shadow">My Work</h2>
-            <div class="projects-flex">
-                <figure class="main-project">
-                    <a href="https://harabushi.github.io/mental-health-check/">
-                        <img class="desktop" src="./assets/images/mental-health-checker-screencap.gif" title="Mental Health Checker" alt="screenshot of mental health checker website" />
-                    </a>
-                    <a href="https://harabushi.github.io/mental-health-check/">
-                        <img class="mobile" src="./assets/images/mental-health-checker-results-screencap.png" title="Mental Health Checker" alt="screenshot of mental health checker website" />
-                    </a>
-                </figure>
-                <figure class="project">
-                    <a href="https://harabushi.github.io/run-buddy/">
-                        <img src="./assets/images/run-buddy-screencap.png" title="Run Buddy" alt="screenshot of run buddy website" />
-                    </a>
-                </figure>
-                <figure class="project">
-                    <a href="https://harabushi.github.io/horiseon/">
-                    <img src="./assets/images/horiseon-screencap.png" title="Horiseon" alt="screenshot of horiseon website" />
-                    </a>
-                </figure>
-                <figure class="project">
-                    <img src="https://via.placeholder.com/400.png" title="placeholder" alt="placeholder image" />
-                </figure>
-                <figure class="project">
-                    <img src="https://via.placeholder.com/400.png" title="placeholder" alt="placeholder image" />
-                </figure>
-            </div>
-        </main>
-        <!-- my work end -->
+    <!-- footer/contact me start -->
+    <footer class="text-center container justify-content-center" id="contact-me">
+      <div class="row">
+        <h2 class="text-shadow col-12 col-sm-4 my-auto">Contact</h2>
+        <address class="text-shadow container col-sm-8">
+          <ul class="list-unstyled row my-auto">
+            <li class="col-12 col-sm-6 col-lg-3">
+              <h4>Phone</h4>
+              763.412.7142
+            </li>
+            <li class="col-12 col-sm-6 col-lg-3">
+              <a href="mailto:harris.colby@gmail.com">
+                <h4>Email</h4>
+                harris.colby@gmail.com
+              </a>
+            </li>
+            <li class="col-12 col-sm-6 col-lg-3">
+              <a href="https://www.facebook.com.colby.harris.14">
+                <h4>Facebook</h4>
+                colby.harris.14
+              </a>
+            </li>
+            <li class="col-12 col-sm-6 col-lg-3">
+              <a href="https://www.github.com/Harabushi">
+                <h4>Github</h4>
+                github.com/Harabushi
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </footer>
+    <!-- footer/contact me end -->
 
-        <!-- footer/contact me start -->
-        <footer id="contact-me" class="contact">
-            <h2 class="text-shadow">Contact</h2>
-            <address class="text-shadow">
-                <ul>
-                    <li>
-                        <h3>Phone</h3>
-                        763.412.7142
-                    </li>
-                    <li>
-                        <a href="mailto:harris.colby@gmail.com">
-                            <h3>Email</h3>
-                            harris.colby@gmail.com
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com.colby.harris.14">
-                            <h3>Facebook</h3>
-                            colby.harris.14
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.github.com/Harabushi">
-                            <h3>Github</h3>
-                            github.com/Harabushi
-                        </a>
-                    </li>
-                </ul>
-            </address>
-        </footer>
-        <!-- footer/contact me end -->
-    </body>
-
+    <!-- scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.2/umd/popper.min.js"
+      integrity="sha512-aDciVjp+txtxTJWsp8aRwttA0vR2sJMk/73ZT7ExuEHv7I5E6iyyobpFOlEFkq59mWW8ToYGuVZFnwhwIUisKA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.bundle.min.js"
+      integrity="sha512-mULnawDVcCnsk9a4aG1QLZZ6rcce/jSzEGqUkeOLy0b6q0+T6syHrxlsAGH7ZVoqC93Pd0lBqd6WguPWih7VHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
 </html>
