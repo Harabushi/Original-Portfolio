@@ -43,6 +43,11 @@ footer h2 {
     flex: 0 0 auto;
     width: 100%;
   }
+
+  .h-3xl-700 {
+    height: 700px;
+  }
+
 }
 
 @media (min-width: 2440px) {
